@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/group"
+        xmlns:my_app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/bg_list_contact"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/black"
+                android:text="Nome"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtTexto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#a5acb2"
+                android:textSize="14sp"
+                tools:text="Phone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/action_location">
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/invate_contact"
+                android:textColor="@color/btnAdd"
+                android:id="@+id/btnInvite"
+                android:textSize="13sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:text="+ Adicionar"
+                android:textAllCaps="false"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_letter"
+        xmlns:my_app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_letter_list_contact"
+        android:gravity="left"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/letter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            tools:text="Letter"
+            android:layout_marginTop="1dp"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

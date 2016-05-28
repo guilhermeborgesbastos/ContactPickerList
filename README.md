@@ -80,7 +80,7 @@ Layout XML ( MainActivity ): [Visualizar Arquivo](https://github.com/guilhermebo
 ```
 
 ### ContactUserFragment [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/ContactUserFragment.java)
-Classe que extende Fragment que possui todo o mecanismo de:
+Classe que estende Fragment que possui todo o mecanismo de:
 * Busca
 * Ordenação
 * Separador alfabético com letras

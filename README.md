@@ -1,5 +1,5 @@
 # ContactPickerList
-Lista de contato completa, com busca, marcadores com letras, ordem alfabética, envio de SMS e funcional para Android 6 >.
+Lista de contato completa, com busca, marcadores com letras, ordem alfabética, envio de SMS e funcional para Android 6. Ideal para quem precisa listar e interagir com a agenda de contatos em seu App Android.
 
 | Gif | Video |
 | --- | --- |
@@ -10,7 +10,7 @@ Lista de contato completa, com busca, marcadores com letras, ordem alfabética, 
 Basta importar o projeto do Git para o seu editor ( Android Studio / Eclipse, etc... )
 
 ## Classes
-### MainActivity
+### MainActivity [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/MainActivity.java)
 Classe principal que gerencia o fragmento que possui a RecyclerView.
 ```
 package guilherme.com.br.contactpikerlist;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
-Layout XML ( MainActivity ):
+Layout XML ( MainActivity ): [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/res/layout/activity_main.xml)
 ```
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -79,7 +79,7 @@ Layout XML ( MainActivity ):
 </FrameLayout>
 ```
 
-### ContactUserFragment
+### ContactUserFragment [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/ContactUserFragment.java)
 Classe que extende Fragment que possui todo o mecanismo de:
 * Busca
 * Ordenação
@@ -419,7 +419,7 @@ public class ContactUserFragment extends Fragment {
     }
 }
 ```
-Layout XML ( ContactUserFragment ):
+Layout XML ( ContactUserFragment ): [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/res/layout/contact_user_fragment.xml)
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
@@ -732,7 +732,7 @@ public class ContactListAdapter extends RecyclerView.Adapter<ContactListAdapter.
 }
 
 ```
-Layout XML ( ContactListAdapter ) ViewHolder:
+Layout XML ( ContactListAdapter ) ViewHolder: [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/res/layout/contact_view_holder.xml)
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -815,9 +815,7 @@ Layout XML ( ContactListAdapter ) ViewHolder:
                 android:paddingRight="5dp"
                 android:paddingLeft="5dp"/>
 
-
         </LinearLayout>
-
 
     </LinearLayout>
 
@@ -849,7 +847,7 @@ Layout XML ( ContactListAdapter ) ViewHolder:
 </android.support.v7.widget.CardView>
 ```
 
-### Contatos ( POJO )
+### Contatos ( POJO ) [Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/pojos/Contatos.java)
 Classe do tipo POJO para armazenar as infos que a lista de contatos do Android nos retornará.
 ```
 package guilherme.com.br.contactpikerlist.pojos;

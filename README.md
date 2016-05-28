@@ -1,20 +1,20 @@
 # ContactPickerList
-Lista de contato completa, com busca, marcadores com letras, ordem alfabética, envio de SMS e funcional para Android 6. Ideal para quem precisa listar e interagir com a agenda de contatos em seu App Android.
-
 When developing an application will be faced with the need to facilitate the life of your user for him to share your App among your friends. For this I created the ContactPickerList a simple and practical way to access the phonebook contact list and for her make sharing via SMS to any friend.
+
+Lista de contato completa, com busca, marcadores com letras, ordem alfabética, envio de SMS e funcional para Android 6. Ideal para quem precisa listar e interagir com a agenda de contatos em seu App Android.
 
 | Gif | Video |
 | --- | --- |
 | ![ContactPikerAnimated](https://meucomercioeletronico.com/tutorial/ContactPikerAnimated.gif)  | [![VIDEO](https://meucomercioeletronico.com/tutorial/curat_pagina_fb.jpg)](https://www.facebook.com/AndroidNaPratica/) |
 
 
-## Instalação e uso / Installation and use
-Basta importar o projeto do Git para o seu editor ( Android Studio / Eclipse, etc... ).
-
+## Installation and use / Instalação e uso
 Just import the Git project to your editor (Android Studio / Eclipse, etc ...).
 
+Basta importar o projeto do Git para o seu editor ( Android Studio / Eclipse, etc... ).
+
 ## Classes / Class
-### MainActivity [Visualizar Arquivo / See File](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/MainActivity.java)
+### MainActivity [See File / Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/MainActivity.java)
 Classe principal que gerencia o fragmento que possui a RecyclerView.
 
 Main class that manages the fragment has the RecyclerView.

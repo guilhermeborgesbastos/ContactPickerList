@@ -13,7 +13,7 @@ Just import the Git project to your editor (Android Studio / Eclipse, etc ...).
 
 Basta importar o projeto do Git para o seu editor ( Android Studio / Eclipse, etc... ).
 
-## Classes / Class
+## Class / Classes
 ### MainActivity [See File / Visualizar Arquivo](https://github.com/guilhermeborgesbastos/ContactPickerList/blob/master/app/src/main/java/guilherme/com/br/contactpikerlist/MainActivity.java)
 Main class that manages the fragment has the RecyclerView.
 

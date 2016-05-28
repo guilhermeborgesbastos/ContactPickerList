@@ -3,7 +3,7 @@ Lista de contato completa, com busca, marcadores com letras, ordem alfabética, 
 
 | Gif | Video |
 | --- | --- |
-| ![ContactPikerAnimated](https://meucomercioeletronico.com/tutorial/ContactPikerAnimated.gif)  | [![VIDEO](https://img.youtube.com/vi/r6qHrTARf2U/0.jpg)](https://www.youtube.com/watch?v=r6qHrTARf2U) |
+| ![ContactPikerAnimated](https://meucomercioeletronico.com/tutorial/ContactPikerAnimated.gif)  | [![VIDEO](https://meucomercioeletronico.com/tutorial/curat_pagina_fb.jpg)](https://www.facebook.com/AndroidNaPratica/) |
 
 
 ## Instalação e uso

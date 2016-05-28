@@ -914,3 +914,15 @@ public class Contatos {
 }
 ```
 
+### Conclusão
+
+Com este componente podemos fazer diversas aplicacoes, de forma fácil e rápida. Eu mesmo utilizei para fazer o caompartilhamento do meu aplicativo para a agenda de contatos do meu usuário.
+
+Espero que tenha ajudado!
+
+Fico a disposição para tirar dúvidas:
+guilhermeborgesbastos@gmail.com
+
+## Contato
+[![VIDEO](https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAgiAAAAJGMwMTQwNTMyLTU2N2EtNDM1NS1iZDMxLTI2ZjVhZDRlNjM2Mw.jpg)](https://www.facebook.com/AndroidNaPratica)
+
